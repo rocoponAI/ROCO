@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ROCOPON | AIアニメ動画で地域のお店をPR</title>
+  <meta name="description" content="ROCOPONは久留米市・筑後市・八女市・福岡市をはじめとする地域密着型のお店向けに、AIショートアニメ動画でSNS集客を支援するサービスです。最短2〜4週間で納品。まずは無料相談から。" />
+  <meta property="og:title" content="ROCOPON | AIアニメ動画で地域のお店をPR" />
+  <meta property="og:description" content="AIアニメ動画で、あなたのお店の魅力をSNSに届けます。久留米市・筑後市など地域密着のPR動画制作サービス。" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Zen Maru Gothic -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="top">
+    <div class="header__inner container">
+      <a href="#top" class="header__logo" aria-label="ROCOPONトップへ">
+        <span class="logo-mark">R</span>
+        <span class="logo-text">ROCOPON</span>
+      </a>
+      <nav class="header__nav" aria-label="グローバルナビゲーション">
+        <ul class="header__nav-list">
+          <li><a href="#works">制作実績</a></li>
+          <li><a href="#service">サービス</a></li>
+          <li><a href="#price">料金</a></li>
+          <li><a href="#faq">よくある質問</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn btn--primary header__cta" id="header-cta">
+        まずは無料相談する
+      </a>
+      <button class="header__hamburger" id="hamburger-btn" aria-label="メニューを開く" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- モバイルメニュー -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <ul class="mobile-menu__list">
+        <li><a href="#works" class="mobile-menu__link">制作実績</a></li>
+        <li><a href="#service" class="mobile-menu__link">サービス</a></li>
+        <li><a href="#price" class="mobile-menu__link">料金</a></li>
+        <li><a href="#faq" class="mobile-menu__link">よくある質問</a></li>
+        <li><a href="#contact" class="mobile-menu__link mobile-menu__link--cta">まずは無料相談する</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg-circles" aria-hidden="true">
+        <div class="circle circle--1"></div>
+        <div class="circle circle--2"></div>
+        <div class="circle circle--3"></div>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow">久留米・筑後・福岡の小さなお店へ</p>
+          <h1 class="hero__title">
+            AIアニメ動画で<br />
+            あなたの<span class="hero__title--accent">お店の魅力</span>を
+            SNSに届けよう
+          </h1>
+          <p class="hero__desc">
+            「動画を作りたいけど、どこに頼めばいいかわからない」<br />
+            ROCOPONは、AIアニメの力で最短2〜4週間・<br class="sp-only" />手頃な価格でSNS集客用のPR動画を制作します。
+          </p>
+          <div class="hero__cta-group">
+            <a href="#works" class="btn btn--primary btn--lg" id="hero-sample-btn">
+              <span class="btn__icon">▶</span> サンプル動画を見る
+            </a>
+            <a href="#contact" class="btn btn--line btn--lg" id="hero-line-btn">
+              <span class="btn__icon">💬</span> LINEで無料相談する
+            </a>
+          </div>
+          <p class="hero__note">※ 相談・お見積りは無料です</p>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__img-wrap">
+            <img
+              src="hero_illustration.png"
+              alt="スマートフォンからROCOPONのAIアニメキャラクターが飛び出してくるイラスト。飲食店・美容室・整骨院など地域のお店が並ぶ背景"
+              class="hero__img"
+              width="540"
+              height="540"
+              loading="eager"
+            />
+            <!-- 浮遊バッジ -->
+            <div class="hero__badge hero__badge--speed" aria-label="最短2〜4週間納品">
+              <span class="badge__icon">⚡</span>
+              <span class="badge__text">最短2〜4週間納品</span>
+            </div>
+            <div class="hero__badge hero__badge--price" aria-label="映像制作より安い">
+              <span class="badge__icon">💰</span>
+              <span class="badge__text">映像制作より安い</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- スクロールインジケーター -->
+      <div class="hero__scroll-indicator" aria-hidden="true">
+        <span class="scroll-text">scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ========== 課題提起ゾーン ========== -->
+    <section class="problems" id="problems">
+      <div class="container">
+        <p class="section-label">こんなお悩み、ありませんか？</p>
+        <h2 class="section-title">動画PR、<br class="sp-only" />やりたいけど…</h2>
+        <div class="problems__grid">
+          <div class="problem-card" id="problem-card-1">
+            <div class="problem-card__image">
+              <img src="images/problem1.png" alt="写真や動画はあるが活用できていないシェフ" />
+            </div>
+            <p class="problem-card__text">
+              <strong>写真や動画はあるが<br>うまく活用できていない</strong>
+            </p>
+          </div>
+          <div class="problem-card" id="problem-card-2">
+            <div class="problem-card__image">
+              <img src="images/problem2.png" alt="高額な見積もりに悩む男性" />
+            </div>
+            <p class="problem-card__text">
+             <strong>映像制作会社に相談したら<br>高くて手が出なかった</strong>
+            </p>
+          </div>
+          <div class="problem-card" id="problem-card-3">
+            <div class="problem-card__image">
+              <img src="images/problem3.png" alt="誰に相談すればいいか迷う女性" />
+            </div>
+            <p class="problem-card__text">
+              <strong>Instagram・TikTokで<br>動画を投稿できていない</strong>
+            </p>
+          </div>
+        </div>
+        <!-- 解決の橋渡し -->
+        <div class="problems__solution" aria-hidden="true">
+          <div class="solution-arrow">
+            <span>ROCOPONが解決します</span>
+            <div class="arrow-down"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== サービス概要 ========== -->
+    <section class="service-overview" id="service">
+      <div class="container">
+        <p class="section-label">SERVICE</p>
+        <h2 class="section-title">AIアニメ動画で<br />できること</h2>
+        <p class="section-sub">ヒアリングからストーリー設計まで寄り添う「伴走型」サポート。<br class="sp-only" />AI技術と手描き表現を組み合わせた、温かみのある動画をご提供します。</p>
+        <div class="service-grid">
+          <div class="service-card" id="service-card-sns">
+            <div class="service-card__icon" aria-hidden="true">📲</div>
+            <h3 class="service-card__title">SNS集客</h3>
+            <p class="service-card__desc">
+              Instagram・TikTok・YouTube Shortsに最適化した縦型ショートアニメ。お店の個性をアニメで表現し、拡散力を高めます。
+            </p>
+          </div>
+          <div class="service-card" id="service-card-web">
+            <div class="service-card__icon" aria-hidden="true">🌐</div>
+            <h3 class="service-card__title">Webサイト活用</h3>
+            <p class="service-card__desc">
+              トップページやサービスページに動画を埋め込み、訪問者の滞在時間と信頼感をアップ。
+            </p>
+          </div>
+          <div class="service-card" id="service-card-event">
+            <div class="service-card__icon" aria-hidden="true">🎪</div>
+            <h3 class="service-card__title">イベント・店頭PR</h3>
+            <p class="service-card__desc">
+              店頭モニターや地域イベントでの上映用にも対応。来場促進・雰囲気醸成に効果的です。
+            </p>
+          </div>
+          <div class="service-card" id="service-card-brand">
+            <div class="service-card__icon" aria-hidden="true">✨</div>
+            <h3 class="service-card__title">ブランドPR</h3>
+            <p class="service-card__desc">
+              アニメのキャラクターやストーリーでお店のブランドを"人格化"。親しみやすいイメージを演出。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Works 抜粋 ========== -->
+    <section class="works" id="works">
+      <div class="container">
+        <p class="section-label">WORKS</p>
+        <h2 class="section-title">制作サンプル動画</h2>
+        <p class="section-sub">業種の異なるサンプルをご覧ください。これがROCOPONのクオリティです。</p>
+        <div class="works__grid">
+          <!-- サンプル1 -->
+          <div class="work-card" id="work-card-food">
+            <div class="work-card__thumb">
+              <div class="work-card__play-btn" aria-label="動画を再生">
+                <span class="play-icon" aria-hidden="true">▶</span>
+              </div>
+              <div class="work-card__thumb-bg work-card__thumb-bg--food" aria-hidden="true">
+                <span class="thumb-emoji">🍜</span>
+              </div>
+              <span class="work-card__category">飲食店</span>
+            </div>
+            <div class="work-card__info">
+              <h3 class="work-card__title">ラーメン店 SNS集客動画</h3>
+              <p class="work-card__desc">15秒 / Instagram Reels・TikTok向け縦型</p>
+              <a href="#contact" class="btn btn--ghost btn--sm" id="work-food-cta">LINEで無料相談する</a>
+            </div>
+          </div>
+          <!-- サンプル2 -->
+          <div class="work-card" id="work-card-beauty">
+            <div class="work-card__thumb">
+              <div class="work-card__play-btn" aria-label="動画を再生">
+                <span class="play-icon" aria-hidden="true">▶</span>
+              </div>
+              <div class="work-card__thumb-bg work-card__thumb-bg--beauty" aria-hidden="true">
+                <span class="thumb-emoji">✂️</span>
+              </div>
+              <span class="work-card__category">美容室</span>
+            </div>
+            <div class="work-card__info">
+              <h3 class="work-card__title">美容室 新メニュー紹介動画</h3>
+              <p class="work-card__desc">30秒 / Instagram・Webサイト埋め込み</p>
+              <a href="#contact" class="btn btn--ghost btn--sm" id="work-beauty-cta">LINEで無料相談する</a>
+            </div>
+          </div>
+          <!-- サンプル3 -->
+          <div class="work-card" id="work-card-clinic">
+            <div class="work-card__thumb">
+              <div class="work-card__play-btn" aria-label="動画を再生">
+                <span class="play-icon" aria-hidden="true">▶</span>
+              </div>
+              <div class="work-card__thumb-bg work-card__thumb-bg--clinic" aria-hidden="true">
+                <span class="thumb-emoji">🏥</span>
+              </div>
+              <span class="work-card__category">整骨院</span>
+            </div>
+            <div class="work-card__info">
+              <h3 class="work-card__title">整骨院 院内紹介・信頼構築動画</h3>
+              <p class="work-card__desc">30秒 / YouTube・Webサイト向け横型</p>
+              <a href="#contact" class="btn btn--ghost btn--sm" id="work-clinic-cta">LINEで無料相談する</a>
+            </div>
+          </div>
+        </div>
+        <div class="works__cta">
+          <a href="#contact" class="btn btn--outline btn--md" id="works-more-btn">もっと事例を見たい方は無料相談へ</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 料金シグナル ========== -->
+    <section class="price" id="price">
+      <div class="container">
+        <p class="section-label">PRICE</p>
+        <h2 class="section-title">料金のイメージ</h2>
+        <p class="section-sub">「高そう…」と思っていませんか？映像制作会社より手頃な価格でご提供しています。</p>
+        <div class="price__cards">
+          <div class="price-card" id="price-card-basic">
+            <div class="price-card__header">
+              <span class="price-card__badge">ショートアニメ</span>
+              <h3 class="price-card__plan">ライトプラン</h3>
+            </div>
+            <div class="price-card__price">
+              <span class="price-card__from">15秒〜30秒 / 1本</span>
+              <p class="price-card__amount"><span class="price-card__yen">¥</span>39,800<span class="price-card__tax">〜（税込）</span></p>
+            </div>
+            <ul class="price-card__features">
+              <li>ヒアリング・絵コンテ確認込み</li>
+              <li>修正2回まで対応</li>
+              <li>MP4縦横比（9:16 / 16:9）対応</li>
+              <li>著作権譲渡込み</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--block" id="price-basic-cta">まずは無料相談する</a>
+          </div>
+          <div class="price-card price-card--featured" id="price-card-standard">
+            <div class="price-card__ribbon" aria-label="人気">人気</div>
+            <div class="price-card__header">
+              <span class="price-card__badge">ショートアニメ</span>
+              <h3 class="price-card__plan">スタンダードプラン</h3>
+            </div>
+            <div class="price-card__price">
+              <span class="price-card__from">3本セット</span>
+              <p class="price-card__amount"><span class="price-card__yen">¥</span>99,800<span class="price-card__tax">〜（税込）</span></p>
+            </div>
+            <ul class="price-card__features">
+              <li>業種違い・シーン違いで3本</li>
+              <li>修正各3回まで対応</li>
+              <li>SNS投稿テキスト案もセット</li>
+              <li>著作権譲渡込み</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--block" id="price-standard-cta">まずは無料相談する</a>
+          </div>
+          <div class="price-card" id="price-card-custom">
+            <div class="price-card__header">
+              <span class="price-card__badge">月額プラン</span>
+              <h3 class="price-card__plan">月額運用プラン</h3>
+            </div>
+            <div class="price-card__price">
+              <span class="price-card__from">毎月1〜2本定期制作</span>
+              <p class="price-card__amount"><span class="price-card__yen">¥</span>29,800<span class="price-card__tax">〜/月（税込）</span></p>
+            </div>
+            <ul class="price-card__features">
+              <li>毎月安定したコンテンツ投稿</li>
+              <li>SNS運用サポート付き</li>
+              <li>最低3ヶ月〜の契約</li>
+              <li>著作権譲渡込み</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--block" id="price-custom-cta">まずは無料相談する</a>
+          </div>
+        </div>
+        <p class="price__note">※ 上記はすべて目安金額です。内容・尺・本数によって変動します。まずはお気軽にご相談ください。</p>
+        <a href="#contact" class="btn btn--ghost btn--md price__detail-link" id="price-detail-btn">料金の詳細を無料相談する →</a>
+      </div>
+    </section>
+
+    <!-- ========== 制作フロー ========== -->
+    <section class="flow" id="flow">
+      <div class="container">
+        <p class="section-label">HOW IT WORKS</p>
+        <h2 class="section-title">制作の流れ</h2>
+        <p class="section-sub">最短2〜4週間で納品します。難しい準備は一切不要です。</p>
+        <ol class="flow__steps">
+          <li class="flow__step" id="flow-step-1">
+            <div class="flow__step-num" aria-hidden="true">01</div>
+            <div class="flow__step-content">
+              <h3 class="flow__step-title">無料相談・ヒアリング</h3>
+              <p class="flow__step-desc">LINEまたはフォームからお気軽にご連絡ください。業種・用途・ご予算をお聞きします。<br>※福岡県内であれば、直接お店へ伺う現地対応も可能です。</p>
+            </div>
+          </li>
+          <li class="flow__step" id="flow-step-2">
+            <div class="flow__step-num" aria-hidden="true">02</div>
+            <div class="flow__step-content">
+              <h3 class="flow__step-title">絵コンテ・構成確認</h3>
+              <p class="flow__step-desc">ストーリー・キャラクター・メッセージの方向性をご確認いただきます。イメージと違ったら遠慮なく仰ってください。</p>
+            </div>
+          </li>
+          <li class="flow__step" id="flow-step-3">
+            <div class="flow__step-num" aria-hidden="true">03</div>
+            <div class="flow__step-content">
+              <h3 class="flow__step-title">AI動画制作・修正</h3>
+              <p class="flow__step-desc">AIアニメで動画を制作します。修正が必要な箇所はご指摘ください（回数は料金プランによります）。</p>
+            </div>
+          </li>
+          <li class="flow__step" id="flow-step-4">
+            <div class="flow__step-num" aria-hidden="true">04</div>
+            <div class="flow__step-content">
+              <h3 class="flow__step-title">納品・SNS投稿サポート</h3>
+              <p class="flow__step-desc">MP4ファイルでお渡しします。SNS投稿のキャプション文案もセットでご提案（プランによります）。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ========== FAQ（抜粋） ========== -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <p class="section-label">FAQ</p>
+        <h2 class="section-title">よくある質問</h2>
+        <dl class="faq__list">
+          <div class="faq__item" id="faq-item-1">
+            <dt class="faq__question">
+              <button class="faq__question-btn" aria-expanded="false" aria-controls="faq-answer-1">
+                AIアニメって、なんか人工的・チープな感じになりませんか？
+              </button>
+            </dt>
+            <dd class="faq__answer" id="faq-answer-1" hidden>
+              近年のAI技術は急速に進歩しており、クオリティは数年前とは別物です。実際のサンプルをご覧いただくのが一番です。ご不安な方は、まず無料相談でサンプルをお見せします。
+            </dd>
+          </div>
+          <div class="faq__item" id="faq-item-2">
+            <dt class="faq__question">
+              <button class="faq__question-btn" aria-expanded="false" aria-controls="faq-answer-2">
+                どんな業種でも制作できますか？
+              </button>
+            </dt>
+            <dd class="faq__answer" id="faq-answer-2" hidden>
+              飲食・美容・整骨院・歯科・工務店・農業・観光など幅広い業種に対応しています。「うちの業種は特殊で…」とお感じの方も、まずはご相談ください。
+            </dd>
+          </div>
+          <div class="faq__item" id="faq-item-3">
+            <dt class="faq__question">
+              <button class="faq__question-btn" aria-expanded="false" aria-controls="faq-answer-3">
+                内容がまだ決まっていない段階でも相談できますか？
+              </button>
+            </dt>
+            <dd class="faq__answer" id="faq-answer-3" hidden>
+              もちろんです。「何を作ればいいかわからない」という段階からお話を聞いています。ヒアリングを通じて、お店の強みや伝えたいことを一緒に整理します。
+            </dd>
+          </div>
+          <div class="faq__item" id="faq-item-4">
+            <dt class="faq__question">
+              <button class="faq__question-btn" aria-expanded="false" aria-controls="faq-answer-4">
+                著作権はどちらのものになりますか？
+              </button>
+            </dt>
+            <dd class="faq__answer" id="faq-answer-4" hidden>
+              納品後の著作権はすべてお客様に譲渡します。SNSへの投稿・Webサイトへの掲載・店頭での使用など、自由にご活用いただけます。
+            </dd>
+          </div>
+        </dl>
+        <p class="faq__more-note">それでも不安な方は、まずLINEでお気軽にご相談ください。</p>
+        <a href="#contact" class="btn btn--outline btn--md faq__cta" id="faq-cta-btn">LINEで無料相談する</a>
+      </div>
+    </section>
+
+    <!-- ========== CTA フルワイド ========== -->
+    <section class="cta-section" id="contact">
+      <div class="cta-section__bg" aria-hidden="true">
+        <div class="cta-circle cta-circle--1"></div>
+        <div class="cta-circle cta-circle--2"></div>
+      </div>
+      <div class="container cta-section__inner">
+        <h2 class="cta-section__title">
+          まずは気軽に<br />相談してみてください
+        </h2>
+        <p class="cta-section__desc"> 「こんな相談でもいいの？」と思うくらいの内容でも大歓迎。<br>
+          動画の内容が決まっていなくても、予算が不明でもOKです。 </p>
+        <p class="cta-section__desc">&nbsp;</p>
+<div class="cta-section__examples">
+        <p class="cta-examples__label">こんな相談でOKです！</p>
+          <ul class="cta-examples__list">
+            <li>「ラーメン屋なんですが、SNSで動画を使いたいんです…」</li>
+            <li>「競合と差をつけたいけど何から始めればいいか分からない」</li>
+            <li>「予算が〇〇円しかないけど、何かできますか？」</li>
+          </ul>
+        </div>
+        <div class="cta-section__buttons">
+          <a
+            href="https://line.me/R/ti/p/@rocopon"
+            class="btn btn--line btn--xl"
+            id="cta-line-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="btn__icon">💬</span> LINEで無料相談する
+          </a>
+          <a href="mailto:contact@rocopon.jp" class="btn btn--white btn--xl" id="cta-form-btn">
+            <span class="btn__icon">✉️</span> メールで無料相談する
+          </a>
+        </div>
+        <p class="cta-section__note">&nbsp;</p>
+        <p class="cta-section__note">※ 通常24時間以内にご返信します</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#top" class="footer__logo" aria-label="ROCOPONトップへ">
+          <span class="logo-mark">R</span>
+          <span class="logo-text">ROCOPON</span>
+        </a>
+        <p class="footer__tagline">AIアニメで、地域の魅力を動かす。</p>
+      </div>
+      <nav class="footer__nav" aria-label="フッターナビゲーション">
+        <ul class="footer__nav-list">
+          <li><a href="#works">制作実績</a></li>
+          <li><a href="#service">サービス</a></li>
+          <li><a href="#price">料金</a></li>
+          <li><a href="#faq">よくある質問</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">&copy; 2026 ROCOPON. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
